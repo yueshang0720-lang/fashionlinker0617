@@ -263,132 +263,10 @@ export const blogContents: Record<string, BlogContent> = {
           title: 'Stay Current',
           description: 'With simulcast episodes released within hours of Japanese broadcast, you can stay current with the latest anime trends and join global conversations as new episodes drop each week.',
         },
-      ],
-    },
-    conclusion: 'Crunchyroll has revolutionized how anime fans worldwide access and enjoy their favorite content. With its massive library, simulcast episodes, multi-language support, and premium features like ad-free streaming and offline viewing, it\'s the ultimate platform for anime enthusiasts. Whether you\'re diving into classic series or keeping up with the latest seasonal releases, Crunchyroll delivers an unmatched viewing experience. Join millions of fans worldwide and start your anime journey today with Crunchyroll\'s premium membership.',
+      // 注意：上一篇文章的结尾应该是 } 后面跟个逗号
+  // 上一篇文章的 content 属性结束处
   },
-  'vilebrequin-luxury-swimwear-summer-guide': {
-    slug: 'vilebrequin-luxury-swimwear-summer-guide',
-    introduction: 'Since 1971, when Fred Prysquel wandered the sun-drenched promenades of Saint-Tropez and decided the world needed more colorful, better-crafted swim trunks, Vilebrequin has stood as the undisputed house of luxury swimwear. Over five decades later, the brand continues to push boundaries with hand-embroidered limited editions and water-reactive prints that transform when they touch the sea.',
-    products: [
-      {
-        rank: 1,
-        name: 'Classic Swim Trunks',
-        description: 'The cornerstone of the Vilebrequin universe. Cut from quick-dry polyamide with an inner mesh brief and the signature back pocket with embossed button.',
-        features: ['Quick-dry polyamide fabric', 'Inner mesh brief for comfort', 'Signature embossed back pocket button', 'Dozens of exclusive seasonal prints'],
-        pros: ['Iconic silhouette recognized worldwide', 'Exceptional print quality that does not fade', 'Versatile from pool to beach bar', 'Generous fit suits all body types'],
-        cons: ['Premium price point reflects luxury positioning', 'Popular prints sell out fast'],
-        link: 'https://www.linkhaitao.com/index.php?mod=lhdeal&track=5f5f_bzeM0jQroDesDsx_aKqB5hgSdyILglKDbNsqzbVRocShCgOAqBYlKzO1_arMzDEZ9jPQbaB_ak_c&new=https%3A%2F%2Fwww.vilebrequin.com%2Fus%2Fen%2Fhome',
-      },
-      {
-        rank: 2,
-        name: 'Embroidered Limited Editions (Mistral)',
-        description: 'Each embroidered swim trunk is a miniature work of art requiring eight different production stages and months of meticulous handwork.',
-        features: ['Eight-stage handcraft production', 'Numbered limited editions', 'Premium fabrics with raised embroidery', 'Collector-worthy presentation box'],
-        pros: ['Truly unique statement pieces', 'Museum-quality craftsmanship', 'Holds value as a collectible', 'Exceptional conversation starter'],
-        cons: ['Higher price than mainline collection', 'Very limited availability'],
-        link: 'https://www.linkhaitao.com/index.php?mod=lhdeal&track=5f5f_bzeM0jQroDesDsx_aKqB5hgSdyILglKDbNsqzbVRocShCgOAqBYlKzO1_arMzDEZ9jPQbaB_ak_c&new=https%3A%2F%2Fwww.vilebrequin.com%2Fus%2Fen%2Fhome',
-      },
-      {
-        rank: 3,
-        name: 'Water-Reactive Magical Swim Trunks',
-        description: 'Dry, they display a discreet solid shade. The moment they hit water, hidden patterns magically emerge including turtles, tropical fish, and geometric motifs.',
-        features: ['Color-change technology activated by water', 'Hidden patterns revealed when wet', 'Returns to original shade when dry', 'Available in men and boys sizes'],
-        pros: ['Genuinely magical and fun to wear', 'Perfect ice-breaker at pool parties', 'Endlessly entertaining for kids', 'Same premium construction as mainline'],
-        cons: ['Pattern only visible when wet', 'Technology requires specific care instructions'],
-        link: 'https://www.linkhaitao.com/index.php?mod=lhdeal&track=5f5f_bzeM0jQroDesDsx_aKqB5hgSdyILglKDbNsqzbVRocShCgOAqBYlKzO1_arMzDEZ9jPQbaB_ak_c&new=https%3A%2F%2Fwww.vilebrequin.com%2Fus%2Fen%2Fhome',
-      },
-      {
-        rank: 4,
-        name: 'Ultra-Light Packable Swim Shorts',
-        description: 'Engineered for the jet-set traveler. These featherweight trunks fold into their own zippered back pocket, transforming into a compact pouch.',
-        features: ['Folds into integrated zippered pocket', 'Ultra-lightweight quick-dry fabric', 'Full print library available', 'Perfect travel companion'],
-        pros: ['Takes up almost no suitcase space', 'Same vivid prints as heavier styles', 'Quick-dry for multi-day adventures', 'Ideal for spontaneous beach stops'],
-        cons: ['Thinner fabric than classic range', 'Fewer color options than mainline'],
-        link: 'https://www.linkhaitao.com/index.php?mod=lhdeal&track=5f5f_bzeM0jQroDesDsx_aKqB5hgSdyILglKDbNsqzbVRocShCgOAqBYlKzO1_arMzDEZ9jPQbaB_ak_c&new=https%3A%2F%2Fwww.vilebrequin.com%2Fus%2Fen%2Fhome',
-      },
-      {
-        rank: 5,
-        name: 'Stretch Classic Collection',
-        description: 'For those who move from morning laps to beach volleyball to sunset cocktails. Adds four-way elastane to the signature silhouette.',
-        features: ['Four-way stretch fabric', 'Classic Vilebrequin silhouette maintained', 'Enhanced comfort for active wear', 'Quick-dry and chlorine-resistant'],
-        pros: ['Superior comfort for active lifestyles', 'Retains shape wash after wash', 'Great for water sports', 'Moves with the body naturally'],
-        cons: ['Slightly more fitted than classic cut', 'Stretch fabrics may feel different initially'],
-        link: 'https://www.linkhaitao.com/index.php?mod=lhdeal&track=5f5f_bzeM0jQroDesDsx_aKqB5hgSdyILglKDbNsqzbVRocShCgOAqBYlKzO1_arMzDEZ9jPQbaB_ak_c&new=https%3A%2F%2Fwww.vilebrequin.com%2Fus%2Fen%2Fhome',
-      },
-      {
-        rank: 6,
-        name: 'Women Swimwear Collection',
-        description: 'From sculptural one-pieces that evoke Riviera glamour to mix-and-match bikinis in signature prints.',
-        features: ['One-piece bikini and rashguard options', 'Signature prints in feminine cuts', 'Mother-daughter matching swimsuits', 'Premium UV-protective fabrics'],
-        pros: ['Same luxury quality as the men line', 'Flattering cuts for diverse body types', 'Matching family sets create lasting memories', 'Elegant enough for resort dining'],
-        cons: ['Smaller range than men collection', 'Sizing may run slightly small'],
-        link: 'https://www.linkhaitao.com/index.php?mod=lhdeal&track=5f5f_bzeM0jQroDesDsx_aKqB5hgSdyILglKDbNsqzbVRocShCgOAqBYlKzO1_arMzDEZ9jPQbaB_ak_c&new=https%3A%2F%2Fwww.vilebrequin.com%2Fus%2Fen%2Fhome',
-      },
-      {
-        rank: 7,
-        name: 'Resort Linen Shirts and Polos',
-        description: 'Summer style extends beyond the waterline. Linen shirts, airy polos, and bermuda shorts pair seamlessly with swim trunks.',
-        features: ['Pure linen and linen-blend fabrics', 'Relaxed resort-ready silhouettes', 'Coordinates with swim trunk prints', 'Breathable lightweight construction'],
-        pros: ['Effortless beach-to-bar transition', 'Premium natural fabrics stay cool', 'Coordinated looks with swimwear', 'Elegant without being overdressed'],
-        cons: ['Linen creases naturally', 'Dry-clean recommended for some pieces'],
-        link: 'https://www.linkhaitao.com/index.php?mod=lhdeal&track=5f5f_bzeM0jQroDesDsx_aKqB5hgSdyILglKDbNsqzbVRocShCgOAqBYlKzO1_arMzDEZ9jPQbaB_ak_c&new=https%3A%2F%2Fwww.vilebrequin.com%2Fus%2Fen%2Fhome',
-      },
-      {
-        rank: 8,
-        name: 'Father-Son and Family Matching Sets',
-        description: 'Identical prints scaled from toddler to adult. Dress the whole family in coordinating turtle prints, geometric patterns, or tropical motifs.',
-        features: ['Matching prints for father and son', 'Mother-daughter swimsuit coordination', 'Sizes from baby to big and tall', 'Seasonal exclusive family prints'],
-        pros: ['Creates unforgettable family vacation moments', 'Photo-ready coordinated looks', 'Wide size range accommodates everyone', 'Quality lasts through hand-me-downs'],
-        cons: ['Must coordinate sizes across multiple items', 'Family sets can add up in cost'],
-        link: 'https://www.linkhaitao.com/index.php?mod=lhdeal&track=5f5f_bzeM0jQroDesDsx_aKqB5hgSdyILglKDbNsqzbVRocShCgOAqBYlKzO1_arMzDEZ9jPQbaB_ak_c&new=https%3A%2F%2Fwww.vilebrequin.com%2Fus%2Fen%2Fhome',
-      },
-      {
-        rank: 9,
-        name: 'Accessories and Beach Lifestyle',
-        description: 'From oversized beach towels in signature prints to structured tote bags, bucket hats, flip-flops, and premium sunglasses.',
-        features: ['Signature print towels and foutas', 'Beach bags totes and luggage', 'Bucket hats and caps', 'Sunglasses flip-flops and beach games'],
-        pros: ['Complete head-to-toe summer styling', 'Same quality and print consistency', 'Perfect gift options', 'Functional and stylish'],
-        cons: ['Accessories priced at luxury level', 'Some items seasonal only'],
-        link: 'https://www.linkhaitao.com/index.php?mod=lhdeal&track=5f5f_bzeM0jQroDesDsx_aKqB5hgSdyILglKDbNsqzbVRocShCgOAqBYlKzO1_arMzDEZ9jPQbaB_ak_c&new=https%3A%2F%2Fwww.vilebrequin.com%2Fus%2Fen%2Fhome',
-      },
-      {
-        rank: 10,
-        name: 'Vilebrequin x 3.PARADIS Collaboration',
-        description: 'The Summer 2026 collaboration with Paris-based label 3.PARADIS brings surrealist dove motifs and dreamlike Riviera landscapes to a seven-piece capsule.',
-        features: ['Exclusive 7-piece capsule with 3.PARADIS', 'Recycled polyester and sustainable fabrics', 'Lifetime repair service for swim shorts', 'Lower-impact production processes'],
-        pros: ['Exclusive limited collaboration', 'Environmentally conscious luxury', 'Repair service extends garment life', 'Supporting ocean conservation'],
-        cons: ['Collaborations sell out rapidly', 'Sustainable fabrics in select items only'],
-        link: 'https://www.linkhaitao.com/index.php?mod=lhdeal&track=5f5f_bzeM0jQroDesDsx_aKqB5hgSdyILglKDbNsqzbVRocShCgOAqBYlKzO1_arMzDEZ9jPQbaB_ak_c&new=https%3A%2F%2Fwww.vilebrequin.com%2Fus%2Fen%2Fhome',
-      },
-    ],
-    buyingGuide: {
-      title: 'How to Choose Your Perfect Vilebrequin Swim Trunks',
-      factors: [
-        {
-          title: 'Select Your Cut',
-          description: 'Choose from Classic (mid-thigh, relaxed), Short Classic (above mid-thigh), Long Classic (knee-length), or Flat Belt (slim, tailored).',
-        },
-        {
-          title: 'Choose Your Fabric Technology',
-          description: 'Standard polyamide for everyday luxury, stretch for active wear, ultra-light for travel, or Woolmark-certified Merino wool for the ultimate statement.',
-        },
-        {
-          title: 'Pick a Print That Speaks to You',
-          description: 'From the iconic turtle motif to abstract geometrics, tropical florals, and minimalist solids.',
-        },
-        {
-          title: 'Consider the Family Match',
-          description: 'Explore father-son or mother-daughter matching sets for incredible holiday photos and special memories.',
-        },
-        {
-          title: 'Care for Longevity',
-          description: 'Rinse in fresh water after every session, avoid wringing, and line dry in the shade. Vilebrequin also offers a professional repair service.',
-        
-    conclusion: 'Vilebrequin has spent over fifty years proving that swimwear can be art, craftsmanship, and pure summer joy all at once. Whether you are lounging poolside at a Mediterranean villa or island-hopping in the Caribbean, Vilebrequin ensures you look extraordinary doing it.',
- conclusion: 'Vilebrequin has spent over fifty years proving that swimwear can be art, craftsmanship, and pure summer joy all at once. Whether you are lounging poolside or exploring hidden coves, their pieces offer an unmatched blend of style, comfort, and enduring luxury.',
-  },
-  {
+  'enterprise-car-club-sustainable-smart-travel-guide': {
     slug: 'enterprise-car-club-sustainable-smart-travel-guide',
     content: `
       <div class="prose max-w-none text-gray-800 leading-relaxed">
@@ -446,4 +324,3 @@ export const blogContents: Record<string, BlogContent> = {
       </div>
     `
   }
-];
