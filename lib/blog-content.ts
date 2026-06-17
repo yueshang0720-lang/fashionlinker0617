@@ -384,8 +384,7 @@ export const blogContents: Record<string, BlogContent> = {
         {
           title: 'Care for Longevity',
           description: 'Rinse in fresh water after every session, avoid wringing, and line dry in the shade. Vilebrequin also offers a professional repair service.',
-        },
-      ],
+        
     },
     conclusion: 'Vilebrequin has spent over fifty years proving that swimwear can be art, craftsmanship, and pure summer joy all at once. Whether you are lounging poolside at a Mediterranean villa or island-hopping in the Caribbean, Vilebrequin ensures you look extraordinary doing it.',
   },
