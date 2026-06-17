@@ -446,5 +446,5 @@ export const blogContents: Record<string, BlogContent> = {
         </p>
       </div>
     `
-  },
-};
+}
+];
