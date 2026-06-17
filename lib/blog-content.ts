@@ -387,6 +387,7 @@ export const blogContents: Record<string, BlogContent> = {
         
     },
     conclusion: 'Vilebrequin has spent over fifty years proving that swimwear can be art, craftsmanship, and pure summer joy all at once. Whether you are lounging poolside at a Mediterranean villa or island-hopping in the Caribbean, Vilebrequin ensures you look extraordinary doing it.',
+ conclusion: 'Vilebrequin has spent over fifty years proving that swimwear can be art, craftsmanship, and pure summer joy all at once. Whether you are lounging poolside or exploring hidden coves, their pieces offer an unmatched blend of style, comfort, and enduring luxury.',
   },
   {
     slug: 'enterprise-car-club-sustainable-smart-travel-guide',
@@ -445,5 +446,5 @@ export const blogContents: Record<string, BlogContent> = {
         </p>
       </div>
     `
-}
+  }
 ];
