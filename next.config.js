@@ -1,11 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   typescript: {
-    // 强制忽略 TypeScript 错误，允许打包
+    // 强行忽略 TypeScript 的所有语法/类型错误
     ignoreBuildErrors: true,
   },
   eslint: {
-    // 强制忽略 ESLint 检查错误，允许打包
+    // 强行忽略 ESLint 的所有格式检查错误
     ignoreDuringBuilds: true,
   },
 };
