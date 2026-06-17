@@ -162,4 +162,13 @@ export const blogPosts: BlogPost[] = [
     publishDate: '2026-04-20',
     author: 'FashionLinker Team',
   },
+  {
+    slug: 'enterprise-car-club-sustainable-smart-travel-guide',
+    title: 'The Smart Traveler’s Guide: Why Enterprise Car Club is Revolutionizing Modern Mobility',
+    description: 'Say goodbye to maintenance costs and insurance hassle. Discover how Enterprise Car Club offers 24/7 on-demand car rentals right around your corner.',
+    category: 'Travel',
+    image: 'https://images.pexels.com/photos/4606346/pexels-photo-4606346.jpeg', // 精选的高清商用汽车出行配图
+    publishDate: '2026-05-01',
+    author: 'FashionLinker Team',
+  },
 ];
