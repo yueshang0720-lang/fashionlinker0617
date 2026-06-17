@@ -10,6 +10,15 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'enterprise-car-club-sustainable-smart-travel-guide',
+    title: 'Smart Travel: Why Enterprise Car Club is the Ultimate City Hack',
+    description: 'Ditch the car ownership costs. Discover how Enterprise Car Club offers flexible, sustainable, and cost-effective travel for urban explorers.',
+    category: 'Travel & Lifestyle',
+    author: 'FashionLinker',
+    publishDate: '2026-05-01',
+    image: 'https://www.enterprisecarclub.co.uk/content/dam/eclub/en-gb/homepage/hero-image.jpg'
+  },
+  {
     slug: 'best-wireless-headphones',
     title: '10 Best Wireless Headphones for 2024',
     description: 'Discover the top wireless headphones that deliver exceptional sound quality and comfort.',
